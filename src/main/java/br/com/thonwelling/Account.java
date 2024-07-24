@@ -44,9 +44,9 @@ public abstract class Account implements AccountInterface{
     }
 
     protected void printCommonInfos(){
-        System.out.println(String.format("Account Owner: %s" , this.client.getFirstName() + this.client.getLastName()));
-        System.out.println(String.format("Bank Agency: %d"   , this.agency));
-        System.out.println(String.format("Account Number: %d", this.accountNumber));
-        System.out.println(String.format("Balance: %.2f"     , this.balance));
+        System.out.println(String.format("Titular Da Conta: %s"   , this.client.getFirstName() + this.client.getLastName()));
+        System.out.println(String.format("Agência         : %d"   , this.agency));
+        System.out.println(String.format("Número Da Conta : %d"   , this.accountNumber));
+        System.out.println(String.format("Saldo           : %.2f" , this.balance));
     }
 }

@@ -7,7 +7,7 @@ public class CurrentAccount extends Account {
 
     @Override
     public void printStatment(){
-        System.out.println("---> Current Account Statment <---");
+        System.out.println("---> Extrato De Conta Corrente <---");
         super.printCommonInfos();
     }
 }

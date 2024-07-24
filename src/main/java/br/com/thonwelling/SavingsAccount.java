@@ -7,7 +7,7 @@ public class SavingsAccount extends Account {
 
     @Override
     public void printStatment(){
-        System.out.println("---> Savings Account Statment <---");
+        System.out.println("---> Extrato De Conta Poupança <---");
         super.printCommonInfos();
     }
 }
